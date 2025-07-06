@@ -1,0 +1,22 @@
+version: 2
+
+project_name: redisorm
+
+builds:
+  - skip: true
+
+archives:
+  - id: source
+    files:
+      - LICENSE
+      - README.md
+      - go.mod
+      - "**/*.go"
+
+checksum:
+  name_template: "checksums.txt"
+
+release:
+  github:
+    owner: manojoshi
+    name: redisorm
