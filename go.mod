@@ -1,6 +1,6 @@
 module github.com/manojoshi/redisorm
 
-go 1.23.0
+go 1.23
 
 require (
 	github.com/redis/go-redis/v9 v9.11.0
